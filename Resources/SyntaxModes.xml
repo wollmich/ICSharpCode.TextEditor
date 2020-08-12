@@ -43,6 +43,14 @@
 	      name       = "PHP"
 	      extensions = ".php"/>
 	
+	<Mode file       = "Python.xshd"
+	      name       = "Python"
+	      extensions = ".py"/>
+	
+	<Mode file       = "Ruby.xshd"
+	      name       = "Ruby"
+	      extensions = ".rb"/>
+	
 	<Mode file       = "Tex-Mode.xshd"
 	      name       = "TeX"
 	      extensions = ".tex"/>
