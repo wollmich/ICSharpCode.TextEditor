@@ -11,7 +11,7 @@
     <WarningLevel>4</WarningLevel>
     <NoStdLib>False</NoStdLib>
     <NoConfig>False</NoConfig>
-    <RunPostBuildEvent>OnSuccessfulBuild</RunPostBuildEvent>
+    <!--<RunPostBuildEvent>OnSuccessfulBuild</RunPostBuildEvent>-->
     <OutputType>Library</OutputType>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Resources\ICSharpCode.TextEditor.snk</AssemblyOriginatorKeyFile>
@@ -222,5 +222,7 @@
   <PropertyGroup>
     <PreBuildEvent>
     </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
 </Project>
